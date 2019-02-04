@@ -1,0 +1,98 @@
+/* Styles Added By Yasser Hossam & Mushira Ahmad */
+/********************************************************/
+/* Style for the left panel in the main pages like home, profile, user profile, coutry wall....
+it take 25% of the width with scrolling and fixed position*/
+.LeftPanel
+{
+  border:1px solid #ddd;
+  position:fixed;
+  width:25%;
+  height:95%; 
+  overflow-y:scroll; 
+  overflow-x:hidden;      
+}
+/* Style for the right panel ads bar fixed, 16% (col-2) */
+.RightPanel
+{
+position:fixed;
+width:16.6%;
+height:95%; 
+overflow-y:scroll; 
+overflow-x:hidden;
+
+}
+
+
+
+
+
+
+
+
+
+/* Style for givving div 0 left padding and 0 right padding */
+.NoSidepadding
+{
+padding-right:0px !important;
+padding-left:0px !important;
+}
+
+
+
+/* Style for the memo Bar*/
+.MemoBar
+{
+    border: 1px solid #ccc;
+    position: fixed;
+    width: 41.6%;
+    background: #fff;
+    height: 70px;
+    z-index: 999;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile UI */
+/*@media screen and (max-width: 1000px) */
+@media  (min-width: 100px) and (max-width: 1000px) {
+
+/*Memo Bar*/
+.MemoBar
+{
+    border: 1px solid #ccc;
+    width: 100%;
+    position:relative;
+    background: #fff;
+    height: 70px;
+    z-index: 999;
+    border-radius: 10px;
+    padding-bottom:70px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Styles Added By Yasser Hossam & Mushira Ahmad */

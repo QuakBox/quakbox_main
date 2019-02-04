@@ -1,0 +1,7 @@
+John Doe
+Jane Doe
+217
+214
+'Mushira Ahmad has a Birth Day today'
+INSERT INTO notifications (sender_id, received_id, title, type_of_notifications, href, is_unread, date_created) 
+	VALUES('217','214','Mushira Ahmad has a Birth Day today',37,'Mushira',0,1455055801)

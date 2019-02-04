@@ -1,0 +1,18 @@
+.albumThumb,.photoThumb{background:none repeat scroll 0 0 #FFF;border:1px solid #CCC;display:inline-block;outline:medium none;padding:4px;position:relative;vertical-align:bottom}.albumThumb{margin-bottom:10px}.albumThumb:hover,.albumThumb:hover .albumThumbWrap{border:1px solid #3b5998}.albumThumb,.albumThumb i{height:111px;width:167px}.photoThumb,.photoThumb i{height:120px;width:161px}.albumThumbWrap{background:none repeat scroll 0 0 #FFF;border:1px solid #CCC;left:4px;padding:4px;position:absolute;top:4px}.albumThumb i,.photoThumb i{background-color:#EEE;background-position:center;background-repeat:no-repeat;display:block}.albumWrapper,.photoWrapper{margin:5px;width:auto}.albumWrapper{width:181px;display:inline-block}.albumDetails{width:186px;padding-top:7px;padding-bottom:5px;font-size:11px;font-family:"lucida grande",tahoma,verdana,arial,sans-serif}.albumText a{color:#3B5998;cursor:pointer;text-decoration:none}.albumText a:hover{text-decoration:underline}.albumCount{color:#8b8383}.fb-album-footer{color:gray;font-weight:700;font-size:10px}#fb-album-header p{color:#333;font-size:11px}.fbLink{cursor:pointer}
+.PopupPanel {
+border: solid 1px black;
+position: absolute;
+left: 50%;
+top: 50%;
+background-color: white;
+z-index: 100;
+overflow-y: scroll;
+height: 400px;
+margin-top: -200px;
+width: 600px;
+margin-left: -300px;
+}
+#search_country {
+	width:100%;
+	margin:0px auto;
+}

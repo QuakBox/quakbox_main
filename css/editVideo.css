@@ -1,0 +1,447 @@
+@charset "utf-8";
+/* CSS Document */
+#mainbody
+{
+	width:980px;
+	margin-left: 160px;
+	padding: 10px;
+}
+
+
+#videoHead
+{
+	clear:both;
+	width:100%;
+	padding:10px;
+	margin-bottom: 60px;
+}
+#videoName
+{
+	float:left;
+	width:600px;
+}
+#videoName a
+{
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 23px;
+	color: #0365F9;
+	font-weight: bold;
+}
+
+#save-edit-btn
+{
+	float:right;
+	
+}
+hr
+{
+	color:#999;
+}
+#video-player-and-info-panel
+{
+	height:auto;
+	width:100%;
+	clear:both;
+	
+}
+
+.thumb{ width:170px; height:120px; cursor:pointer; box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff; 
+          margin-bottom: 12px;
+         }
+#video
+{
+	float:left;
+	height:500px;
+	width:50%;
+}
+#video_thumb
+{
+	float:right;
+	width:50%;
+	height:auto;
+}
+
+#thumb_div
+{
+	float:left;
+}
+#video_edit_info
+{
+	float:left;
+	height:auto;
+	margin-left:30px;
+	width: 270px;
+}
+
+
+.myButton {
+	-moz-box-shadow: 12px 21px 17px -3px #3e7327;
+	-webkit-box-shadow: 12px 21px 17px -3px #3e7327;
+	box-shadow: 12px 21px 17px -3px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:1px 0px 50px #75c73e;
+	border-radius:10px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.text3  
+{ 
+background:#E1E1E1; 
+color:#000; 
+width: 200px; 
+padding: 2px 5px 3px 30px; 
+border-radius: 10px; 
+box-shadow: 0 1px 0 #ccc inset; 
+transition:500ms all ease; 
+outline:0; 
+} 
+.text3:hover 
+{ 
+width:270px; 
+} 
+
+
+  .thumb:hover .overlay1{
+               opacity:1;
+               }
+
+.plus{  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:36px;}
+  .overlay1    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:38px 0 38px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;}
+  .overlay2    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:35px 0 29px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;}
+
+input.file {
+	width: 150px;
+	height: 20px;
+	border: 1px solid #BBB;
+	border-right: 0;
+	color: #888;
+	padding: 5px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+	outline: none;
+}
+
+div.file_upload {
+	width: 121px;
+	height: 29px;
+	background: #7abcff;
+	background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+	background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -o-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -ms-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+	
+	-webkit-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	color: #FFF;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 16px;
+	margin-left: 21px;
+}
+div.file_upload:before {
+	content: "Browse..";
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+
+div.file_upload input {
+	position: relative;
+	height: 30px;
+	width: 250px;
+	display: inline;
+	cursor: pointer;
+	opacity: 0;
+}
+
+div.thumbfile_upload {
+	width: 165px;
+	height: 25px;
+	background: #7abcff;
+	background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee));
+	background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -o-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: -ms-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	background: linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+
+	display: inline;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+	
+	-webkit-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	color: #FFF;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 16px;
+	margin-left: 21px;
+}
+div.thumbfile_upload:before {
+	content: "Custom Thumbnail";
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+
+div.thumbfile_upload input {
+	position: relative;
+	height: 30px;
+	width: 250px;
+	display: inline;
+	cursor: pointer;
+	opacity: 0;
+}
+   #preview{
+	   display:none;
+   }
+   .custom_thumb{width: 170px;
+display: inline-block;
+margin-bottom: 50px;}
+@media only screen and (max-width:640px) {
+
+
+#mainbody
+{
+width:100%;
+padding:0px;
+}
+#submenushead h2
+{
+padding:10px;
+}
+.componentheading
+{
+width:100%;
+}
+#videoHead
+{
+width:100%;
+padding:0px;
+}
+
+.row
+{
+width:100%;
+margin-right:0px;
+}
+
+#videoName
+{
+width:100%;
+float:none;
+}
+#videoName h2
+{
+padding:10px;
+}
+#save-edit-btn
+{
+width:100%;
+float:none;
+}
+#save-edit-btn a
+{
+margin-left: 10px;
+margin-bottom: 23px;
+}
+
+
+#video
+{
+width: 100%;
+float: none;
+height: auto;
+padding-bottom: 20px;
+}
+
+#divContainer
+{
+margin-left: 10px;
+}
+#thumb_div
+{
+float:none;
+}
+
+#video_thumb
+{
+float:none;
+margin-top: 10px;
+}
+
+#thumb1, #thumb2, #thumb3, #thumb4, #thumb5
+{
+
+float:none;
+margin-left: 10px;
+} 
+
+#video_edit_info
+{
+width:100%;
+margin:0px;
+margin-bottom: 70px;
+margin-left: 10px;
+float:none;
+}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+
+#mainbody
+{
+width:100%;
+padding:0px;
+}
+#submenushead h2
+{
+padding:10px;
+}
+.componentheading
+{
+width:100%;
+}
+#videoHead
+{
+width:100%;
+padding:0px;
+}
+
+.row
+{
+width:100%;
+margin-right:0px;
+}
+
+#videoName
+{
+width:100%;
+float:none;
+}
+#videoName h2
+{
+padding:10px;
+}
+#save-edit-btn
+{
+width:100%;
+float:none;
+}
+#save-edit-btn a
+{
+margin-left: 10px;
+margin-bottom: 23px;
+}
+
+
+#video
+{
+width: 100%;
+float: none;
+height: auto;
+padding-bottom: 20px;
+}
+
+#divContainer
+{
+margin-left: 10px;
+}
+#thumb_div
+{
+float:none;
+}
+
+#video_thumb
+{
+float:none;
+}
+
+#thumb1, #thumb2, #thumb3, #thumb4, #thumb5
+{
+
+float:none;
+margin-left: 10px;
+} 
+
+#video_edit_info
+{
+width:100%;
+margin:0px;
+margin-bottom: 70px;
+margin-left: 10px;
+float:none;
+}
+
+}
+
+

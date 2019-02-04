@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wall_mobDesign_menu .float-right{
+  float: right;
+}
+#wall_mobDesign_menu .fa{
+ font-size: 16px;
+ line-height: 40px !important;
+ margin-right: 6px; 
+}
+/*div#menu {
+    margin:30px 0 0 95px;
+    position:absolute;
+}*/
+
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <div><ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <div><ul><li><a href="#"><span>level 3</span></a></li></ul></div>
+ *                  </li>
+ *              </ul></div>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+div#wall_mobDesign_menu {
+   	height: 52px;
+	padding-left: 6px;
+	width: 96%;
+	margin-top: 20px;
+}
+
+div#wall_mobDesign_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#wall_mobDesign_menu ul.wall_menu {
+    border-radius: 10px;
+    background: url('../images/wall_mobDesign_images/right.png') no-repeat right 0;
+    _background: url('../images/wall_mobDesign_images/right.gif') no-repeat right 0;    
+	width:100%;
+}
+
+div#wall_mobDesign_menu li {
+    position: relative;
+    margin: 0;
+    padding: 0 0px 0 0;
+    display: block;
+    float: left;
+    z-index: 9;
+    width: auto;
+}
+div#wall_mobDesign_menu ul ul li {
+    z-index: 9;
+}
+div#wall_mobDesign_menu li div {
+    list-style: none;
+    float: left;
+    position: absolute;
+    z-index: 11;
+    top: 52px;
+    left: 0;
+    visibility: hidden;
+    width: 180px;
+	  margin: 0px 0 0 -4px;
+    padding: 0; 
+    background: url('../images/wall_mobDesign_images/subsubmenu-top.png') no-repeat 0px 0;
+    _background: url('../images/wall_mobDesign_images/subsubmenu-top.gif') no-repeat 0px 0;  
+}
+div#wall_mobDesign_menu ul ul {
+	  z-index: 12;
+    padding: 0px 4px 10px 4px;
+    background: url('../images/wall_mobDesign_images/submenu-bottom.png') no-repeat 0px bottom;
+    _background: url('../images/wall_mobDesign_images/submenu-bottom.gif') no-repeat 0px bottom;        
+    margin: 10px 0 0 0;    
+}
+div#wall_mobDesign_menu li:hover>div {
+    visibility: visible;
+}
+
+div#wall_mobDesign_menu a {
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    display: block;
+    float: left;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 1px;
+    white-space: nowrap;
+    width: auto;
+    padding-right:5px;
+    text-align:center;
+}
+div#wall_mobDesign_menu span {
+    margin-top: 2px;
+color: #FFF;
+font: 12px/50px Helvetica,Arial,FreeSans,sans-serif;
+background: none no-repeat scroll 95% 0px transparent;
+display: block;
+cursor: pointer;
+text-align: center;
+width: 100%;
+}
+
+/* menu::level1 */
+div#wall_mobDesign_menu a {
+    padding: 0 10px 0 0;
+    line-height: 50px;
+    height: 52px;
+	width:100%;
+    _margin-right: 1px;
+    background: none;
+    text-transform: uppercase;
+}
+div#wall_mobDesign_menu a:hover {
+    background:  url('../images/wall_mobDesign_images/selected-right-sub.png')  no-repeat right -1px;
+}
+div#wall_mobDesign_menu a:hover span {
+    background: url('../images/wall_mobDesign_images/selected-left-sub.png') no-repeat 0 -3px;
+}
+div#wall_mobDesign_menu li.current a,
+div#menu ul.menu>li:hover>a {
+    background: url('../images/wall_mobDesign_images/selected-right-sub.png')  no-repeat right -1px;
+}
+div#wall_mobDesign_menu li.current a span,
+div#wall_mobDesign_menu ul.wall_menu>li:hover>a span {
+    background: url('../images/wall_mobDesign_images/selected-left-sub.png') no-repeat 0 -3px;
+}
+
+div#wall_mobDesign_menu ul.wall_menu>li:hover>a span {
+	  color: #24c9ff;
+}
+div#wall_mobDesign_menu li { 
+width:33%;
+ }
+div#wall_mobDesign_menu li.last { background: none; }
+
+/* menu::level2 */
+div#wall_mobDesign_menu ul ul li {
+    background: none;
+    padding: 0;
+}
+div#wall_mobDesign_menu ul ul a {
+    padding: 0px;
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 25px;
+    font-size: 13px;
+    color: #fff;
+    z-index: -1;
+    padding-left: 5px;
+    white-space: normal;
+    width: 152px;
+    margin: 0 8px;
+    text-transform: none;
+}
+    
+div#wall_mobDesign_menu ul ul a span {
+	  padding: 0px 0px;
+    line-height: 40px;
+    font-size: 13px;
+}
+div#wall_mobDesign_menu li.current ul a,
+div#wall_mobDesign_menu li.current ul a span {
+    background:none;
+}
+div#wall_mobDesign_menu ul ul a:hover {
+ background:none;
+ background-color: #004054;
+}
+div#wall_mobDesign_menu ul ul a:hover span {
+	background:none;
+	color: #24c9ff;
+}
+div#wall_mobDesign_menu ul ul a.parent {
+  background: url('../images/wall_mobDesign_images/submenu-pointer.png') no-repeat right bottom;
+  _background-image: url('../images/wall_mobDesign_images/submenu-pointer.gif');
+}
+div#wall_mobDesign_menu ul ul a.parent span {
+  background:none; 
+}
+div#wall_mobDesign_menu ul ul a.parent:hover {
+  background: url('../images/wall_mobDesign_images/submenu-pointer.png') no-repeat right bottom;
+  _background: url('../images/wall_mobDesign_images/submenu-pointer-hover.gif') no-repeat right bottom;
+  background-color: #004054;
+}
+div#wall_mobDesign_menu ul ul a.parent:hover span {
+  background:none; 
+}
+div#wall_mobDesign_menu ul ul span {
+	
+    margin-top: 0;
+    text-align: left;
+}
+div#wall_mobDesign_menu ul ul li.last { background: none; }
+div#wall_mobDesign_menu ul ul li {
+    width: 100%;
+}
+
+/* menu::level3 */
+div#wall_mobDesign_menu ul ul div {
+    width: 180px;
+    padding: 0;
+    margin: -62px 0 0 165px !important;
+}
+div#wall_mobDesign_menu ul ul ul {
+    padding: 10px 4px 0 4px;	
+}
+div#wall_mobDesign_menu ul ul div li {
+    position:relative;
+    top:-10px;
+}
+
+/* lava lamp */
+div#wall_mobDesign_menu li.back {
+    background: url('../images/wall_mobDesign_images/selected-left-sub.png') no-repeat 0 0;
+    width: 5px;
+    height: 52px;
+    z-index: 8;
+    position: absolute;
+    padding: 0;
+    margin: 0px 0 0 0;
+}
+
+div#wall_mobDesign_menu li.back .left {
+    padding:0;
+    width:auto;
+    background:url('../images/wall_mobDesign_images/selected-right-sub.png') no-repeat right 0;
+    height: 52px;
+    margin: 0 0 0 5px;
+    float: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}

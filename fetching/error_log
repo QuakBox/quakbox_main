@@ -1,0 +1,44 @@
+[14-Apr-2015 09:19:26 UTC] PHP Warning:  fopen(http://getbootstrap.com/2.3.2/scaff): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[14-Apr-2015 09:19:43 UTC] PHP Warning:  fopen(http://getbootstrap.com/2.3.2/scaff): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[17-Apr-2015 12:29:38 UTC] PHP Warning:  get_meta_tags(http://www.wisconsinagconnection.com/story-national.php?Id=826): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 43
+[17-Apr-2015 12:29:38 UTC] PHP Warning:  fopen(http://www.wisconsinagconnection.com/story-national.php?Id=826): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[17-Apr-2015 12:29:38 UTC] PHP Warning:  get_meta_tags(http://www.wisconsinagconnection.com/story-national.php?Id=826): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 43
+[17-Apr-2015 12:30:02 UTC] PHP Warning:  fopen(http://www.wisconsinagconnection.com/story-national.php?Id=826): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[17-Apr-2015 12:30:02 UTC] PHP Warning:  fopen(http://www.wisconsinagconnection.com/story-national.php?Id=826): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[17-Apr-2015 12:30:26 UTC] PHP Warning:  fopen(http://www.wisconsinagconnection.com/story-national.php?Id=826): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[17-Apr-2015 17:21:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/qbdevqb/public_html/fetching/fetch.php on line 102
+[17-Apr-2015 17:21:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/qbdevqb/public_html/fetching/fetch.php on line 102
+[04-May-2015 10:33:06 UTC] PHP Warning:  getimagesize(http://jt.india.com/adserv/3.0/1191/4850503/0/16/ADTECH;cookie=info;loc=300;key=key1+key2+key3+key4): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 76
+[04-May-2015 10:33:24 UTC] PHP Warning:  getimagesize(http://static.dnaindia.com/sites/default/files/styles/thumbnail/public/2015/04/29/331880-nepal-army.jpg?itok=ftP5Tiel): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 76
+[04-May-2015 10:34:18 UTC] PHP Warning:  getimagesize(http://static.dnaindia.com/sites/default/files/styles/thumbnail/public/2015/05/03/332916-shweta1.jpg?itok=T-ihSKoz): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 76
+[04-May-2015 10:42:13 UTC] PHP Warning:  getimagesize(http://static.dnaindia.com/sites/default/files/styles/thumbnail/public/2015/04/29/331856-frederique.jpg?itok=CHGE7vph): failed to open stream: Operation now in progress in /home/qbdevqb/public_html/fetching/fetch.php on line 76
+[19-Nov-2015 08:34:10 UTC] PHP Warning:  fopen(https://youtu.be/vZ_NpLWuL0): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:23:58 UTC] PHP Warning:  fopen(https://m.youtube.com/watch?v=Y): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:23:59 UTC] PHP Warning:  fopen(https://m.youtube.com/watch?v=Y): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:24:03 UTC] PHP Warning:  fopen(https://m.youtube.com/watch?v=Y): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:24:05 UTC] PHP Warning:  fopen(https://m.youtube.com/watch?v=Y): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:24:07 UTC] PHP Warning:  fopen(https://m.youtube.com/watch?v=Y): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:24:10 UTC] PHP Warning:  fopen(https://m.youtube.com/watch?v=Y): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[20-Nov-2015 10:24:13 UTC] PHP Warning:  fopen(https://m.youtube.com/wat): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[21-Nov-2015 04:52:15 UTC] PHP Warning:  fopen(http://timesofindia.indiatimes.com/india/PM-Narendra-Modi): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[21-Nov-2015 04:53:03 UTC] PHP Warning:  fopen(https://twitter.com/ANI_news/status/667921581964812288/photo/1?ref_src=twsrc^tfw): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[21-Nov-2015 11:13:28 UTC] PHP Warning:  fopen(http://www.bing.com/videos/search?q=Enrique Iglesias): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[21-Nov-2015 11:13:53 UTC] PHP Warning:  fopen(http://www.bing.com/videos/search?q=Enrique Iglesias): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[21-Nov-2015 11:15:15 UTC] PHP Warning:  fopen(http://www.bing.com/videos/search?q=Enrique Iglesias): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21
+[21-Nov-2015 11:15:48 UTC] PHP Warning:  fopen(http://www.bing.com/videos/search?q=Enrique Iglesias): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/qbdevqb/public_html/fetching/fetch.php on line 21

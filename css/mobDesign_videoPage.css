@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search-bar{ width: 0}
+.trigger{cursor:pointer;}
+
+#search_box_mobDesign
+{
+	margin-top: 35px;
+   
+}
+
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('http://css-tricks.com/examples/RoundButtons/fonts/fontello.eot');
+  src: url('http://css-tricks.com/examples/RoundButtons/fonts/fontello.eot?#iefix') format('embedded-opentype'),
+       url('http://css-tricks.com/examples/RoundButtons/fonts/fontello.woff') format('woff'),
+       url('http://css-tricks.com/examples/RoundButtons/fonts/fontello.ttf') format('truetype'),
+       url('http://css-tricks.com/examples/RoundButtons/fonts/fontello.svg#fontello') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+[class*="icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-size: 3em;
+  speak: none;
+}
+
+#mobDesign_videoPage .nav ul
+{
+	margin-left: 17px;
+}
+
+#mobDesign_videoPage .nav {
+  list-style: none;
+}
+
+#mobDesign_videoPage .nav li {
+    position: relative;
+	display: inline-block;
+	width: 31%;
+	height: 48px;
+	margin-top: 4px;
+	margin-left: 4px;
+	border-right: 1px inset rgba(138, 138, 138, 0.83);
+}
+#mobDesign_videoPage .nav li:last-child {
+	border-right:none;
+}
+
+#mobDesign_videoPage .nav li:before {
+  content: "";
+  display: block;
+  
+  height: 1px;
+  position: absolute;
+}
+
+#mobDesign_videoPage .nav a:link, #mobDesign_videoPage .nav a:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  color: #a7a7a7;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  border: solid 1px transparent;
+  padding-top: 3px;
+  padding-left: 8px;
+}
+
+#mobDesign_videoPage .nav a:before {
+  content: "";
+  display: block;
+  background: #fff;
+  border-top: 2px solid #ddd;
+  position: absolute;
+  z-index: -1;
+}
+
+#mobDesign_videoPage .nav a:active {
+  box-shadow: 0px 3px 4px #aaa inset, 0px 2px 3px #fff;
+}
+
+#mobDesign_videoPage .nav a:hover {
+  text-decoration: none;
+  color: #555;
+  background: #f5f5f5;
+}​

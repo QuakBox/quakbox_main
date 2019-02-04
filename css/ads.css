@@ -1,0 +1,83 @@
+body
+{
+font-family:arial;
+font-size:12px;
+}
+.preview
+{
+
+//border:solid 1px #dedede;
+//padding:10px;
+}
+#preview
+{
+color:#cc0000;
+font-size:12px
+width:180px;
+}
+.preview1
+{
+float: left;
+width:200px;
+border:solid 1px #dedede;
+padding:10px;
+position: relative;
+border:1px solid #CCCCCC; background-color:#DEEFF8
+
+}
+#preview1
+{
+//color:#cc0000;
+font-size:12px
+}
+#adtitle{
+	color:#0000ff; font-size: 15px;width: 180px; position:relative; height:auto; padding:2 2px
+}
+#adbody{
+	width:auto;
+}
+.manage_ads{
+	margin-right:50px; background: #fff; color: #4F70D1; 
+}
+.adsheading{
+	font-size:145% !important; color:#005689 !important; 
+}
+.adsdiv{
+	border:1px solid #CCC; padding-left:20px;padding-bottom:20px;padding-top:0px; background-color:#DEEFF8;
+}
+.adstd{
+	font-weight: bold;text-align: left;width: 130px; padding:5px;vertical-align:top;	
+}
+.adstd1{
+	padding-bottom:10px;	
+}
+.adstd2{
+	padding:5px; vertical-align:top;
+}
+.adstd3{
+	font-weight: bold;text-align: right;width: 130px; padding:5px;vertical-align:top;
+}
+.adstd3 label{
+	font-weight: 700;text-align: right;
+}
+.adstd3 input{
+	width:85%;
+}
+.adstd2  textarea{
+	rgb(255, 0, 0) !important; width:86%; height:100px;
+}
+.txtalignleft
+{
+	text-align:left
+}
+.txtaligncenter
+{
+	text-align:center
+}
+.txtalignright
+{
+	text-align:right
+}
+.adsselect{
+	width:200px;
+}

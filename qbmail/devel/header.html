@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="assets/css/header.css">
+</head>
+<body>
+
+<header class="qbheader">
+    <div class="logo">
+        <a href="/">Quakbox</a>
+    </div>
+    <div class="search-bar">
+        <form action="/create_country.php">
+            <div class="search-input-field">
+                <input type="text" name="search" placeholder="Search Quakbox">
+                <input type="button" value="Search">
+            </div>
+        </form>
+    </div>
+    <ul class="services-list">
+        <li class="cast"><a href="/qcast.php">Cast</a></li>
+        <li class="find-friends"><a href="/find_friend.php">Find Friends</a></li>
+        <li class="messages"><a href="/messages.php">Messages</a></li>
+        <li class="notifications"><a href="/notifications.php">Notifications</a></li>
+        <li class="email"><a href="/webmail/">Webmail</a></li>
+        <li class="world"><a href="/home">World</a></li>
+        <li class="flag"><a href="/create_country.php">Flag</a></li>
+    </ul>
+    <ul class="user-panel">
+        <li class="user-info">
+            <a href="#"><img src="assets/images/user-avatar.png" alt="John Smith"> John Smith</a>
+        </li>
+        <li><a href="#" class="logout">Logout</a></li>
+        <li><a href="#" class="settings">Settings</a></li>
+        <li><a href="#" class="info">Info</a></li>
+    </ul>
+    <div class="mobile-menu">
+        <label href="#" class="menu-icon" for="header-menu-toggle">&#9776;</label>
+        <input type="checkbox" name="header-menu-toggle" id="header-menu-toggle">
+        <ul class="header-menu">
+            <li><a href="/qcast.php">qkass</a></li>
+            <li><a href="/find_friend.php">Find a Friend</a></li>
+            <li><a href="/notifications.php">Notifications</a></li>
+            <li><a href="/messages.php">My Messages</a></li>
+            <li><a href="/webmail/">Webmail</a></li>
+            <li><a href="/home">World</a></li>
+            <li><a href="/create_country.php">Favorite Countries</a></li>
+        </ul>
+    </div>
+</header>
+
+</body>
+</html>

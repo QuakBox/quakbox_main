@@ -1,0 +1,1433 @@
+.sprite {
+    background-image: url(country_flag_50_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-ad {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -5px;
+}
+
+.sprite-ae {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -5px;
+}
+
+.sprite-af {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -5px;
+}
+
+.sprite-ag {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -5px;
+}
+
+.sprite-ai {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -5px;
+}
+
+.sprite-al {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -5px;
+}
+
+.sprite-am {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -5px;
+}
+
+.sprite-an {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -5px;
+}
+
+.sprite-ao {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -5px;
+}
+
+.sprite-ar {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -5px;
+}
+
+.sprite-as {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -5px;
+}
+
+.sprite-at {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -5px;
+}
+
+.sprite-au {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -5px;
+}
+
+.sprite-aw {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -5px;
+}
+
+.sprite-ax {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -5px;
+}
+
+.sprite-az {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -65px;
+}
+
+.sprite-ba {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -65px;
+}
+
+.sprite-bb {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -65px;
+}
+
+.sprite-bd {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -65px;
+}
+
+.sprite-be {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -65px;
+}
+
+.sprite-bf {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -65px;
+}
+
+.sprite-bg {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -65px;
+}
+
+.sprite-bh {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -65px;
+}
+
+.sprite-bi {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -65px;
+}
+
+.sprite-bj {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -65px;
+}
+
+.sprite-bm {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -65px;
+}
+
+.sprite-bn {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -65px;
+}
+
+.sprite-bo {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -65px;
+}
+
+.sprite-br {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -65px;
+}
+
+.sprite-bs {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -65px;
+}
+
+.sprite-bt {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -125px;
+}
+
+.sprite-bw {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -125px;
+}
+
+.sprite-by {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -125px;
+}
+
+.sprite-bz {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -125px;
+}
+
+.sprite-ca {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -125px;
+}
+
+.sprite-cd {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -125px;
+}
+
+.sprite-cf {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -125px;
+}
+
+.sprite-cg {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -125px;
+}
+
+.sprite-ch {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -125px;
+}
+
+.sprite-ci {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -125px;
+}
+
+.sprite-ck {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -125px;
+}
+
+.sprite-cl {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -125px;
+}
+
+.sprite-cm {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -125px;
+}
+
+.sprite-cn {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -125px;
+}
+
+.sprite-co {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -125px;
+}
+
+.sprite-cr {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -185px;
+}
+
+.sprite-cu {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -185px;
+}
+
+.sprite-cv {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -185px;
+}
+
+.sprite-cx {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -185px;
+}
+
+.sprite-cy {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -185px;
+}
+
+.sprite-cz {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -185px;
+}
+
+.sprite-de {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -185px;
+}
+
+.sprite-dj {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -185px;
+}
+
+.sprite-dk {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -185px;
+}
+
+.sprite-dm {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -185px;
+}
+
+.sprite-do {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -185px;
+}
+
+.sprite-dz {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -185px;
+}
+
+.sprite-ec {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -185px;
+}
+
+.sprite-ee {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -185px;
+}
+
+.sprite-eg {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -185px;
+}
+
+.sprite-er {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -245px;
+}
+
+.sprite-es {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -245px;
+}
+
+.sprite-et {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -245px;
+}
+
+.sprite-eu {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -245px;
+}
+
+.sprite-fi {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -245px;
+}
+
+.sprite-fj {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -245px;
+}
+
+.sprite-fk {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -245px;
+}
+
+.sprite-fm {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -245px;
+}
+
+.sprite-fo {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -245px;
+}
+
+.sprite-fr {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -245px;
+}
+
+.sprite-ga {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -245px;
+}
+
+.sprite-gb {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -245px;
+}
+
+.sprite-gd {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -245px;
+}
+
+.sprite-ge {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -245px;
+}
+
+.sprite-gf {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -245px;
+}
+
+.sprite-gg {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -305px;
+}
+
+.sprite-gh {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -305px;
+}
+
+.sprite-gi {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -305px;
+}
+
+.sprite-gl {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -305px;
+}
+
+.sprite-gm {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -305px;
+}
+
+.sprite-gn {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -305px;
+}
+
+.sprite-gp {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -305px;
+}
+
+.sprite-gq {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -305px;
+}
+
+.sprite-gr {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -305px;
+}
+
+.sprite-gs {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -305px;
+}
+
+.sprite-gt {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -305px;
+}
+
+.sprite-gu {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -305px;
+}
+
+.sprite-gw {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -305px;
+}
+
+.sprite-gy {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -305px;
+}
+
+.sprite-hk {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -305px;
+}
+
+.sprite-hn {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -365px;
+}
+
+.sprite-hr {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -365px;
+}
+
+.sprite-ht {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -365px;
+}
+
+.sprite-hu {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -365px;
+}
+
+.sprite-id {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -365px;
+}
+
+.sprite-ie {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -365px;
+}
+
+.sprite-il {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -365px;
+}
+
+.sprite-im {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -365px;
+}
+
+.sprite-in {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -365px;
+}
+
+.sprite-io {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -365px;
+}
+
+.sprite-iq {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -365px;
+}
+
+.sprite-ir {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -365px;
+}
+
+.sprite-is {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -365px;
+}
+
+.sprite-it {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -365px;
+}
+
+.sprite-je {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -365px;
+}
+
+.sprite-jm {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -425px;
+}
+
+.sprite-jo {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -425px;
+}
+
+.sprite-jp {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -425px;
+}
+
+.sprite-ke {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -425px;
+}
+
+.sprite-kg {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -425px;
+}
+
+.sprite-kh {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -425px;
+}
+
+.sprite-ki {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -425px;
+}
+
+.sprite-km {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -425px;
+}
+
+.sprite-kn {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -425px;
+}
+
+.sprite-kp {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -425px;
+}
+
+.sprite-kr {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -425px;
+}
+
+.sprite-kw {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -425px;
+}
+
+.sprite-ky {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -425px;
+}
+
+.sprite-kz {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -425px;
+}
+
+.sprite-la {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -425px;
+}
+
+.sprite-lb {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -485px;
+}
+
+.sprite-lc {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -485px;
+}
+
+.sprite-li {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -485px;
+}
+
+.sprite-lk {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -485px;
+}
+
+.sprite-lr {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -485px;
+}
+
+.sprite-ls {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -485px;
+}
+
+.sprite-lt {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -485px;
+}
+
+.sprite-lu {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -485px;
+}
+
+.sprite-lv {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -485px;
+}
+
+.sprite-ly {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -485px;
+}
+
+.sprite-ma {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -485px;
+}
+
+.sprite-mc {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -485px;
+}
+
+.sprite-md {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -485px;
+}
+
+.sprite-me {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -485px;
+}
+
+.sprite-mg {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -485px;
+}
+
+.sprite-mh {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -545px;
+}
+
+.sprite-mk {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -545px;
+}
+
+.sprite-ml {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -545px;
+}
+
+.sprite-mm {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -545px;
+}
+
+.sprite-mn {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -545px;
+}
+
+.sprite-mo {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -545px;
+}
+
+.sprite-mp {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -545px;
+}
+
+.sprite-mq {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -545px;
+}
+
+.sprite-mr {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -545px;
+}
+
+.sprite-ms {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -545px;
+}
+
+.sprite-mt {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -545px;
+}
+
+.sprite-mu {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -545px;
+}
+
+.sprite-mv {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -545px;
+}
+
+.sprite-mw {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -545px;
+}
+
+.sprite-mx {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -545px;
+}
+
+.sprite-my {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -605px;
+}
+
+.sprite-mz {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -605px;
+}
+
+.sprite-na {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -605px;
+}
+
+.sprite-nc {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -605px;
+}
+
+.sprite-ne {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -605px;
+}
+
+.sprite-nf {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -605px;
+}
+
+.sprite-ng {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -605px;
+}
+
+.sprite-ni {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -605px;
+}
+
+.sprite-nl {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -605px;
+}
+
+.sprite-no {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -605px;
+}
+
+.sprite-np {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -605px;
+}
+
+.sprite-nr {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -605px;
+}
+
+.sprite-nu {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -605px;
+}
+
+.sprite-nz {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -605px;
+}
+
+.sprite-om {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -605px;
+}
+
+.sprite-pa {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -665px;
+}
+
+.sprite-pe {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -665px;
+}
+
+.sprite-pf {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -665px;
+}
+
+.sprite-pg {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -665px;
+}
+
+.sprite-ph {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -665px;
+}
+
+.sprite-pk {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -665px;
+}
+
+.sprite-pl {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -665px;
+}
+
+.sprite-pm {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -665px;
+}
+
+.sprite-pn {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -665px;
+}
+
+.sprite-ps {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -665px;
+}
+
+.sprite-pt {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -665px;
+}
+
+.sprite-pw {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -665px;
+}
+
+.sprite-py {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -665px;
+}
+
+.sprite-qa {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -665px;
+}
+
+.sprite-ro {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -665px;
+}
+
+.sprite-rq {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -725px;
+}
+
+.sprite-rs {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -725px;
+}
+
+.sprite-ru {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -725px;
+}
+
+.sprite-rw {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -725px;
+}
+
+.sprite-sa {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -725px;
+}
+
+.sprite-sb {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -725px;
+}
+
+.sprite-sc {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -725px;
+}
+
+.sprite-sd {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -725px;
+}
+
+.sprite-se {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -725px;
+}
+
+.sprite-sg {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -725px;
+}
+
+.sprite-sh {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -725px;
+}
+
+.sprite-si {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -725px;
+}
+
+.sprite-sj {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -725px;
+}
+
+.sprite-sk {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -725px;
+}
+
+.sprite-sl {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -725px;
+}
+
+.sprite-sm {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -785px;
+}
+
+.sprite-sn {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -785px;
+}
+
+.sprite-so {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -785px;
+}
+
+.sprite-sr {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -785px;
+}
+
+.sprite-st {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -785px;
+}
+
+.sprite-sv {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -785px;
+}
+
+.sprite-sy {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -785px;
+}
+
+.sprite-sz {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -785px;
+}
+
+.sprite-tc {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -785px;
+}
+
+.sprite-td {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -785px;
+}
+
+.sprite-tf {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -785px;
+}
+
+.sprite-tg {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -785px;
+}
+
+.sprite-th {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -785px;
+}
+
+.sprite-tj {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -785px;
+}
+
+.sprite-tl {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -785px;
+}
+
+.sprite-tm {
+    width: 50px;
+    height: 50px;
+    background-position: -5px -845px;
+}
+
+.sprite-tn {
+    width: 50px;
+    height: 50px;
+    background-position: -65px -845px;
+}
+
+.sprite-to {
+    width: 50px;
+    height: 50px;
+    background-position: -125px -845px;
+}
+
+.sprite-tr {
+    width: 50px;
+    height: 50px;
+    background-position: -185px -845px;
+}
+
+.sprite-tt {
+    width: 50px;
+    height: 50px;
+    background-position: -245px -845px;
+}
+
+.sprite-tv {
+    width: 50px;
+    height: 50px;
+    background-position: -305px -845px;
+}
+
+.sprite-tw {
+    width: 50px;
+    height: 50px;
+    background-position: -365px -845px;
+}
+
+.sprite-tz {
+    width: 50px;
+    height: 50px;
+    background-position: -425px -845px;
+}
+
+.sprite-ua {
+    width: 50px;
+    height: 50px;
+    background-position: -485px -845px;
+}
+
+.sprite-ug {
+    width: 50px;
+    height: 50px;
+    background-position: -545px -845px;
+}
+
+.sprite-us {
+    width: 50px;
+    height: 50px;
+    background-position: -605px -845px;
+}
+
+.sprite-uy {
+    width: 50px;
+    height: 50px;
+    background-position: -665px -845px;
+}
+
+.sprite-uz {
+    width: 50px;
+    height: 50px;
+    background-position: -725px -845px;
+}
+
+.sprite-va {
+    width: 50px;
+    height: 50px;
+    background-position: -785px -845px;
+}
+
+.sprite-vc {
+    width: 50px;
+    height: 50px;
+    background-position: -845px -845px;
+}
+
+.sprite-ve {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -5px;
+}
+
+.sprite-vg {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -65px;
+}
+
+.sprite-vi {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -125px;
+}
+
+.sprite-vn {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -185px;
+}
+
+.sprite-vu {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -245px;
+}
+
+.sprite-wf {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -305px;
+}
+
+.sprite-ws {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -365px;
+}
+
+.sprite-xk {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -425px;
+}
+
+.sprite-ye {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -485px;
+}
+
+.sprite-yt {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -545px;
+}
+
+.sprite-za {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -605px;
+}
+
+.sprite-zm {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -665px;
+}
+
+.sprite-zw {
+    width: 50px;
+    height: 50px;
+    background-position: -905px -725px;
+}

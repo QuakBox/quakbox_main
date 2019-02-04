@@ -1,0 +1,7 @@
+AuthName "quakbox.com statistics"
+AuthType Basic
+AuthUserFile /home/wwwquakb/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

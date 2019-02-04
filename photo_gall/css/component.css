@@ -1,0 +1,791 @@
+@font-face {
+
+	font-family: 'fontawesome';
+
+	src:url('../fonts/fontawesome/fontawesome.eot?-e43dk9');
+
+	src:url('../fonts/fontawesome/fontawesome.eot?#iefix-e43dk9') format('embedded-opentype'),
+
+		url('../fonts/fontawesome/fontawesome.woff?-e43dk9') format('woff'),
+
+		url('../fonts/fontawesome/fontawesome.ttf?-e43dk9') format('truetype'),
+
+		url('../fonts/fontawesome/fontawesome.svg?-e43dk9#fontawesome') format('svg');
+
+	font-weight: normal;
+
+	font-style: normal;
+
+} /* Made with http://icomoon.io/app */
+
+
+
+/* General style */
+
+.grid-gallery ul {
+
+	list-style: none;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+
+.grid-gallery figure {
+
+	margin: 0;
+
+}
+
+
+
+.grid-gallery figure img {
+
+	
+
+}
+
+
+
+.grid-gallery figcaption h3 {
+
+	margin: 0;
+
+	padding: 0 0 0.5em;
+
+}
+
+
+
+.grid-gallery figcaption p {
+
+	margin: 0;
+
+}
+
+
+
+/* Grid style */
+
+.grid-wrap {
+
+	max-width: 69em;
+
+	margin: 0 auto;
+
+	padding: 0 1em 1.875em;
+
+}
+
+
+
+.grid {
+
+	margin: 0 auto;
+
+}
+
+
+
+.grid li {
+
+	width: 25%;
+
+	float: left;
+
+	cursor: pointer;
+
+}
+
+
+
+.grid figure {
+
+	padding: 15px;
+
+	-webkit-transition: opacity 0.2s;
+
+	transition: opacity 0.2s;
+
+}
+
+
+
+.grid li:hover figure {
+
+	opacity: 0.7;
+
+}
+
+
+
+.grid figcaption {
+
+	background: #e4e4e4;
+
+	padding: 25px;
+
+}
+
+
+/*Edited by Mushira Ahmad & yasser Hossam 17/01/2016*/
+.photo {
+   
+    float: left;
+    margin: 4px;
+    overflow: hidden;
+    padding: 4px;
+    white-space: nowrap;
+
+    /* CSS3 Box sizing property */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* CSS3 transition */
+    -moz-transition: border 0.2s ease 0s;
+    -ms-transition: border 0.2s ease 0s;
+    -o-transition: border 0.2s ease 0s;
+    -webkit-transition: border 0.2s ease 0s;
+    transition: border 0.2s ease 0s;
+}
+.photo:hover {
+    border-color: #444;
+}
+.photo img {
+    cursor: pointer;
+    width:inherit;
+}
+.photo p, .photo i {
+    display: block;
+}
+.photo p {
+    font-weight: bold;
+}
+.photo li {
+
+		width: 100%;
+
+		height: 100%;
+
+		top: 0;
+
+		left: 0;
+
+		margin: 0;
+
+	}
+
+
+
+	.photo li figure img {
+
+		width: auto;
+
+		margin: 0 auto;
+
+		max-width: 100%;
+
+	}
+
+
+
+	.photo nav span,
+
+	.photo nav span.nav-close {
+
+		font-size: 1.8em;
+
+		padding: 0.3em;
+
+	}
+
+
+#photo_preview {
+
+    background-color: rgba(0,0,0,0.6);
+    bottom: 0;
+    color: #000000;
+    display: none;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+     position: fixed;
+
+}
+
+.photo_wrp {
+    background-color: #FAFAFA;
+    height: auto;
+    margin: 100px auto 0;
+    /*overflow: hidden;*/
+    padding: 15px;
+    /*height: 70%;*/
+    vertical-align: middle;
+    width: 90%;
+    
+
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.close {
+    cursor: pointer;
+    float: right;
+}
+.pleft {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+}
+.pright {
+    float: right ;
+    position: relative;
+    width: 30%;
+}
+
+.preview_prev, .preview_next {
+    cursor: pointer;
+    margin-top: -64px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+
+    -moz-transition: opacity 0.2s ease 0s;
+    -ms-transition: opacity 0.2s ease 0s;
+    -o-transition: opacity 0.2s ease 0s;
+    -webkit-transition: opacity 0.2s ease 0s;
+    transition: opacity 0.2s ease 0s;
+}
+
+.preview_prev:hover, .preview_next:hover {
+   opacity: 1;
+  
+}
+/*.preview_prev {
+    left: 20px;
+}
+.preview_next {
+    right: 40px;
+}*/
+
+/* comments styles */
+#comments form {
+    margin: 10px 0;
+    text-align: left;
+}
+#comments table td.label {
+    color: #000;
+    font-size: 13px;
+    padding-right: 3px;
+    text-align: right;
+    width: 105px;
+}
+#comments table label {
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+#comments table td.field input, #comments table td.field textarea {
+    border: 1px solid #96A6C5;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 16px;
+    margin-top: 2px;
+    padding: 6px;
+    width: 250px;
+}
+#comments_list {
+    margin: 10px 0;
+    text-align: left;
+}
+#comments_list .comment {
+    border-top: 1px solid #000;
+    padding: 10px 0;
+}
+#comments_list .comment:first-child {
+    border-top-width:0px;
+}
+#comments_list .comment span {
+    font-size: 11px;
+}
+
+
+/* Slideshow style */
+.slideshow {
+
+	position: fixed;
+
+	background: rgba(0,0,0,0.6);
+
+	width: 100%;
+
+	height: 100%;
+
+	top: 0;
+
+	left: 0;
+
+	z-index: 500;
+
+	opacity: 0;
+
+	visibility: hidden;
+
+	overflow: hidden;
+
+	-webkit-perspective: 1000px;
+
+	perspective: 1000px;
+
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+
+	transition: opacity 0.5s, visibility 0s 0.5s;
+
+}
+
+
+
+.slideshow-open .slideshow {
+
+	opacity: 1;
+
+	visibility: visible;
+
+	-webkit-transition: opacity 0.5s;
+
+	transition: opacity 0.5s;
+
+}
+
+
+
+.slideshow ul {
+
+	width: 100%;
+
+	height: 100%;
+
+	-webkit-transform-style: preserve-3d;
+
+	transform-style: preserve-3d;
+
+	-webkit-transform: translate3d(0,0,150px);
+
+	transform: translate3d(0,0,150px);
+
+	-webkit-transition: -webkit-transform 0.5s;
+
+	transition: transform 0.5s;
+
+}
+
+
+
+.slideshow ul.animatable li {
+
+	-webkit-transition: -webkit-transform 0.5s;
+
+	transition: transform 0.5s;
+
+}
+
+
+
+.slideshow-open .slideshow ul {
+
+	-webkit-transform: translate3d(0,0,0);
+
+	transform: translate3d(0,0,0);
+
+}
+
+
+
+.slideshow li {
+
+	width: 660px;
+
+	height: 750px;
+
+	position: absolute;
+
+	top: 50%;
+
+	left: 50%;
+
+	margin: -280px 0 0 -330px;
+
+	visibility: hidden;
+
+}
+
+
+
+.slideshow li.show {
+
+	visibility: visible;
+
+}
+
+
+
+.slideshow li:after {
+
+	content: '';
+
+	position: absolute;
+
+	width: 100%;
+
+	height: 100%;
+
+	top: 0;
+
+	left: 0;
+
+	background: rgba(255,255,255,0.8);
+
+	-webkit-transition: opacity 0.3s;
+
+	transition: opacity 0.3s;
+
+}
+
+
+
+.slideshow li.current:after {
+
+	visibility: hidden;
+
+	opacity: 0;
+
+	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+
+	transition: opacity 0.3s, visibility 0s 0.3s;
+
+}
+
+
+
+.slideshow figure {
+
+	width: 100%;
+
+	height: 100%;
+
+	background: #fff;
+
+	border: 50px solid #fff;
+
+	overflow: hidden;
+
+}
+
+
+
+.slideshow figcaption {
+
+	padding-bottom: 20px;
+
+}
+
+
+
+.slideshow figcaption h3 {
+
+	font-weight: 300;
+
+	font-size: 200%;
+
+}
+
+
+
+/* Navigation */
+
+.slideshow nav span {
+
+	position: fixed;
+
+	z-index: 1000;
+
+	color: #59656c;
+
+	text-align: center;
+
+	padding: 3%;
+
+	cursor: pointer;
+
+	font-size: 2.2em;
+
+	
+
+	
+
+}
+
+
+
+.slideshow nav span.nav-prev,
+
+.slideshow nav span.nav-next {
+
+	top: 50%;
+
+	-webkit-transform: translateY(-50%);
+
+	transform: translateY(-50%);
+
+}
+
+
+
+.slideshow nav span.nav-next {
+
+	right: 0;
+
+}
+
+
+
+.slideshow nav span.nav-close {
+
+	top: 50px;
+
+	right: 0;
+
+	padding: 0.5em 1em;
+
+	color: #31373a;
+
+}
+
+
+
+.icon:before,
+
+.icon:after {
+
+	font-family: 'fontawesome';
+
+	speak: none;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-variant: normal;
+
+	text-transform: none;
+
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+
+	-moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+span.nav-prev:before {
+
+	/*content: "\e601";*/
+
+}
+
+
+
+span.nav-next:before  {
+
+
+
+
+
+	/*content: "\e600";*/
+
+}
+
+
+
+span.nav-close:before {
+
+	/*content: "\e602";*/
+
+}
+
+
+
+/* Info on arrow key navigation */
+
+.info-keys {
+
+	position: fixed;
+
+	top: 10px;
+
+	left: 10px;
+
+	width: 60px;
+
+	font-size: 8px;
+
+	padding-top: 20px;
+
+	text-transform: uppercase;
+
+	color: #fff;
+
+	letter-spacing: 1px;
+
+	text-align: center;
+
+}
+
+
+
+.info-keys:before,
+
+.info-keys:after {
+
+	position: absolute;
+
+	top: 0;
+
+	width: 16px;
+
+	height: 16px;
+
+	border: 1px solid #fff;
+
+	text-align: center;
+
+	line-height: 14px;
+
+	font-size: 12px;
+
+}
+
+
+
+.info-keys:before {
+
+	left: 10px;
+
+	content: "\e603";
+
+}
+
+
+
+.info-keys:after {
+
+	right: 10px;
+
+	content: "\e604";
+
+}
+
+
+
+/* Example media queries (reduce number of columns and change slideshow layout) */
+
+
+
+@media screen and (max-width: 60em) {
+
+	/* responsive columns; see "Element sizing" on http://masonry.desandro.com/options.html */
+
+	.grid li {
+
+		width: 33.3%;
+
+	}
+
+
+
+	.slideshow li {
+
+		width: 100%;
+
+		height: 100%;
+
+		top: 0;
+
+		left: 0;
+
+		margin: 0;
+
+	}
+
+
+
+	.slideshow li figure img {
+
+		width: auto;
+
+		margin: 0 auto;
+
+		max-width: 100%;
+
+	}
+
+
+
+	.slideshow nav span,
+
+	.slideshow nav span.nav-close {
+
+		font-size: 1.8em;
+
+		padding: 0.3em;
+
+	}
+
+
+
+	.info-keys {
+
+		display: none;
+
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 35em) {
+
+	.grid li {
+
+		width: 50%;
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 24em) {
+
+	.grid li {
+
+		width: 100%;
+
+	}
+
+}

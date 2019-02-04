@@ -1,0 +1,71 @@
+.header_memo {
+    background-image: url(header_memo.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-ButtonFriendshiprequests {
+    width: 36px;
+    height: 29px;
+    background-position: -5px -5px;
+}
+
+.sprite-ButtonMessages {
+    width: 36px;
+    height: 29px;
+    background-position: -51px -5px;
+}
+
+.sprite-ButtonNotifications {
+    width: 36px;
+    height: 29px;
+    background-position: -97px -5px;
+}
+
+.sprite-ButtonQcast {
+    width: 47px;
+    height: 43px;
+    background-position: -5px -44px;
+}
+
+.sprite-ButtonSearch {
+    width: 29px;
+    height: 23px;
+    background-position: -62px -44px;
+}
+
+.sprite-ButtonSettings {
+    width: 36px;
+    height: 29px;
+    background-position: -62px -77px;
+}
+
+.sprite-ImagePhoto {
+    width: 13px;
+    height: 15px;
+    background-position: -101px -44px;
+}
+
+.sprite-ImageStatus {
+    width: 17px;
+    height: 15px;
+    background-position: -108px -69px;
+}
+
+.sprite-ImageVideos {
+    width: 22px;
+    height: 15px;
+    background-position: -108px -94px;
+}
+
+.sprite-ImageWorld {
+    width: 43px;
+    height: 43px;
+    background-position: -143px -5px;
+}
+
+.sprite-quakboxSmall {
+    width: 46px;
+    height: 46px;
+    background-position: -140px -58px;
+}

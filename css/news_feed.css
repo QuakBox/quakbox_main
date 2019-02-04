@@ -1,0 +1,56 @@
+.feeds-links{text-align:left;padding:5px;border-bottom:1px solid #ccc}.feeds-links .header{font-size:8pt;font-weight:700;margin-bottom:5px;color:teal;font-family:Verdana,Geneva,sans-serif}.feeds-links .header a:hover{color:#06C;text-decoration:underline;font-weight:700}#news_feed{}.mod{clear:both}.type_pa{margin-bottom:10px}.type_pa .y{position:relative;z-index:0;border:1px solid #B9C7D3}.type_pa .hd{padding:2px;text-align:center;border:1px solid #B9C7D3;border-width:0 0 1px}.hd{padding:2px;text-align:center;border:1px solid #B9C7D3;border-width:1px;font-weight:700;text-transform:uppercase}.type_pa .hd h2{font-weight:700;text-transform:uppercase}.type_pa .btn{position:relative;background-position:left -2276px;z-index:0;border-bottom:1px solid #ccc}.y-fp-pg-controls{border:0 solid #B9C7D3}.type_pa .btn a{padding:5px 0 4px;background-color:transparent;display:block;border-style:none;border-width:0;text-decoration:none;font-weight:700}.type_pa .btn .icn{margin:0 10px;cursor:pointer;display:inline-block;vertical-align:middle}.type_pa .btn .pa-sprite{overflow:hidden;position:relative;height:18px;width:18px;display:inline-block}.type_pa .btn .pa-sprite img{position:relative}.type_pa .btn .lbl{padding-left:1px;font-weight:700;max-width:10em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;cursor:pointer;display:inline-block;vertical-align:middle}.type_pa .btn a:focus .lbl,.type_pa .btn a:hover .lbl{text-decoration:underline}.med-small{font-size:120%}.y-txt-y1{color:#333}.news_photo{list-style:none}.news_photo li{padding:0;display:inline-block;width:49%}.news_photo li img{width:100%}.news_photo li a{display:block}#textfilters LI{background:url(../images/sidebar_menu_top.gif) no-repeat center top;color:#fff;display:block;position:relative;width:185px;height:31px;margin:0 0 5px;line-height:31px;padding:0 0 0 10px;text-decoration:none}#textfilters LI:hover{background:url(../images/sidebar_menu_top_a.gif) no-repeat center top}#textfilters LI a,#textfilters LI a:active,#textfilters LI a:visited{color:#fff;text-decoration:none;width:185px;display:block}div.topTitle{font-family:Arial,Helvetica,sans-serif;font-size:15px;margin:0;display:block;padding:0 14px;height:40px;line-height:40px;position:relative;float:left}a.itemLink{color:#FFF;font-weight:700}.topLevel li{display:inline-block}.newstopLevel li{display:inline-block;padding:0 10px;font-size:15px;border:1px solid #C00;margin:0 2px;float:left;background:#C00;cursor:pointer;border-radius:7px}.newstopLevel li a{color:#FFF;text-decoration:none;text-transform:uppercase}.newstopLevel li:hover{background:#4F70D1}.in_main_story{font-size:14px;line-height:18px}.in_story_img_small{float:left;width:360px;margin:0 15px 10px 0;position:relative}.in_story_img_small img{width:100%}.sharebar_new{float:left;width:100%;margin:10px 0}.news-headlines ul{clear:left}.headlines ul li{padding:.35em 0 .35em 14px}.headlines ul li a{color:#333;font-size:13px}.headlines ul li a:hover{color:#008EE1;text-decoration:none}.gmod{padding-bottom:4px;margin-bottom:22px;clear:both}h2 a{color:#222}h2 a:hover{color:#008EE1;text-decoration:none}.slider_nav{margin:0 auto}.slider_nav span{cursor:pointer}a#prev1{display:inline-block;width:27px;height:27px;left:-34px;top:150px;background:url(../images/slider/arrows.png) 0 0 no-repeat;opacity:.8}a#prev1:hover{opacity:1}a#next1{display:inline-block;width:27px;float:right;height:27px;top:150px;right:-34px;background:url(../images/slider/arrows.png) 100% 0 no-repeat;opacity:.8}a#next1:hover{opacity:1}#nws_feed{width:300px;float:left;margin-top:50px;overflow:hidden;}.invertedshiftdown{
+padding: 0;
+border-bottom: 5px solid #0000D1; /*Blue color theme*/
+}
+
+.invertedshiftdown ul{
+margin:0;
+margin-left: 10px; /* margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.invertedshiftdown li{
+display: inline;
+margin: 0 2px 0 2px;
+padding: 0;
+text-transform:uppercase;
+}
+
+.invertedshiftdown a{
+float: left;
+display: block;
+font: bold 10px Arial;
+color: black;
+text-decoration: none;
+margin: 0 1px 0 2px; /*Margin between each menu item*/
+padding: 5px 10px 9px 10px; /*Padding within each menu item*/
+background-color: white; /*Default menu color*/
+
+/*BELOW 4 LINES add rounded bottom corners to each menu item.
+  ONLY WORKS IN FIREFOX AND FUTURE CSS3 CAPABLE BROWSERS
+  REMOVE IF DESIRED*/
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;
+}
+
+.invertedshiftdown a:hover{
+background-color: #0000D1; /*Red color theme*/
+padding-top: 5px; /*Flip default padding-top value with padding-bottom */
+padding-bottom: 5px; /*Flip default padding-bottom value with padding-top*/
+color: white;
+}
+
+.invertedshiftdown .selected a{ /** currently selected menu item **/
+background-color: #0000D1; /*Red color theme*/
+padding-top: 5px; /*Flip default padding-top value with padding-bottom */
+padding-bottom: 5px; /*Flip default padding-bottom value with padding-top*/
+color: white;
+}
+.news_feed-inner {
+	height:100%;
+	overflow:auto;
+	width:321px;
+}

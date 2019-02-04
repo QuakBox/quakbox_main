@@ -1,0 +1,23 @@
+body{font-family:Arial,Helvetica,sans-serif;font-family:12px}#container{margin:0 auto;width: 779px;
+float: left;
+position: fixed;
+z-index: 1;}#container-content{border:solid 1px #ccc;padding:20px;width:558px;color:#ccc}#info_box{padding:60px 0 0;border:solid 1px #dedede;width:100%;z-index:3;background-color:#fcfcfc}#profile_img{background-color:#FFF;border:1px solid #DEDEDE;margin-left:10px;margin-top:-100px;position:absolute;width:86px;height:86px;float:left}.avatar_img{padding:3px}#cover_container{overflow:auto;width:600px}#info-box{margin-top:-50px;position:absolute;width:480px;float:left}#info-name{text-align:center;float:left;overflow:hidden;word-wrap:break-word;width:150px;padding-top:10px;text-transform:capitalize;font-size:20px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}#info-content{margin-left:10px;width:100%;font-size:13px}.info-photos{text-align:center;padding:5px;float:left;width:65px;border:solid 1px #eee;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;cursor:pointer}.favourite_country{text-align:center;padding:5px;width:200px;font-size:13px;display:inline-block;float:right;margin-top:-65px;margin-right:100px;}.info-photos:hover{background:#999}#info-friends{text-align:center;font-size:11px;padding:5px;border:solid 1px #eee;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;cursor:pointer}#info-friends:hover{background:#999}
+#about{
+	position:relative;float:inherit; width:532px;
+	border:1px solid #dedede;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#about-title{
+	font-size: 1.8em;	font-weight: bold; margin-top:10px; padding-bottom:10px; padding-left:10px; border-bottom:1px solid #dedede;
+}
+.member-about .column_internal_left  {    
+	margin-top: 85px;
+	padding-left:0;    
+}
+.member-about .column_internal_right  {    
+	margin-top: 85px;    
+}

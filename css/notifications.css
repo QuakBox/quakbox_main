@@ -1,0 +1,16 @@
+@charset "utf-8";a{color:#3B5998}.pvs{padding-top:5px;padding-bottom:5px}.bottomborder{border-left:medium none;border-right:medium none;border-top:medium none}.uiBoxWhite{background-color:#fff;border-bottom:1px solid #ccc}.fwb{font-weight:700}._4kg ._704>li{padding-top:5px;padding-bottom:5px}.uiList>li:first-child{border-width:0}._4ks>li{border-color:#e9e9e9;border-style:solid}._4kg>li{border-width:1px 0 0}.phm{padding-left:10px;padding-right:10px}.lfloat{float:left}._8r{margin-right:5px;margin-top:-1px}._8o,._8o .img{display:block}img{border:0 none}._42ef{overflow:hidden}._8u{margin-top:1px}a.uiLinkSubtle{color:gray;margin-left:3px}.fss{font-size:9px}
+.column_left{
+	border:none; width:850px;}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.column_left{
+	border:none; width:95%;}
+.fwb {
+	margin-left:18px;}
+
+
+}

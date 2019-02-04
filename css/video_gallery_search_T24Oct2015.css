@@ -1,0 +1,721 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.search-bar #searchbar
+{
+  	display:none;
+}
+#mobDesign_videoPage
+{
+	display:none;
+}
+ul.submenu li {
+border:none;
+}
+
+h2
+{	
+   	font-family:Verdana, Geneva, sans-serif;
+	text-align: center;
+	color:#1F6D98;
+	font-size:20px;
+}
+
+a:hover {text-decoration:none;  }
+
+#searchDiv
+{
+	width:100%; 
+	height:50px; 
+	margin-left:100px;
+}
+
+#btn
+{
+	border-right:none; 
+	float:right; 
+	padding:0px; 
+	margin-left:10px;
+	margin-top: 6px;
+}
+
+.video-thumbnail-duration
+{
+padding: 0px 4px;
+font-weight: bold;
+font-size: 11px;
+background-color: #000;
+color: #FFF !important;
+height: 14px;
+line-height: 14px;
+opacity: 0.75;
+vertical-align: top;
+display: inline-block;
+margin-top: 0px;
+margin-right: 0px;
+position: relative;
+right: 32px;
+bottom: 27px;
+float: right;
+}
+
+
+.test a
+{
+	color:#993300;
+}
+
+.newImg
+{
+	position:absolute; 
+	border:none;
+}
+.myclass_search
+{
+	width:100%;
+}
+.myclass_watch_video
+{
+	float: left;
+	width: 30%;
+}
+.myclass_video_data .video_data
+{
+	line-height:25px;
+}
+.mysearch_div
+{
+	padding:5px;
+}
+ul.popular li
+{
+	height:175px;
+}
+#mob_btn_name
+{
+	margin-top: 10px;
+	padding-left: 39px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#999;
+}
+.mob_div_video
+{
+	box-shadow: 0px 8px 11px -5px #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	outline: 0px none !important;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	background-image: url('../images/no-flyer-thumbnail.png');
+	background-size: 110px;
+	background-color: rgba(168, 168, 168, 1);
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) 
+{
+/* Styles */
+	
+	.videogallery_mobView #mobDesign_videoPage .nav li 
+	{
+		width: 31%;
+		padding-left: 25px;
+		height: 41px;
+	}
+	.video-thumbnail-duration
+	{
+		right: 8px;
+	}
+	.submenu li
+	{
+		display:none;
+	}
+	#mobDesign_videoPage 
+	{
+		display:block;
+		background: #f7f7f7 url(http://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
+	   	width: 100%;
+    		margin-top: -25px;
+		margin-bottom: 29px;
+	}
+	
+	
+	.search-bar #searchbar
+	{
+		display:block;
+    		margin-left: 15px;
+	}
+	.myclass_watch_video 
+	{
+    	width: 50%;
+	}
+	img.mob_div_video 
+	{
+    	width: 90%;
+		height:105px;
+	}
+		
+	#mainbody
+	{
+		padding:0px;
+	}
+	
+	
+	#searchbox
+	{
+		margin-left:10px;
+		background:none;
+		border-style:none;
+		overflow:visible;
+		
+	}
+	ul.submenu .submit
+	{
+		float:left;
+	}
+	ul.submenu li 
+	{
+		width:95%;
+		background-size:35px 35px;
+		background-repeat:no-repeat;
+		margin-bottom: 20px;
+	}
+	
+	.submit
+	{
+		float:none;
+		width:100%;
+		margin-top:7px;
+	}
+	#searchbar
+	{
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+	
+	.video_Content
+	{
+		float:right;
+		width: 48%;
+	}
+	
+	video_title
+	{
+		width:100%;
+	}
+	.video_Content .video_data
+	{
+		width:100%;
+		line-height:25px;
+	}
+	ul li
+	{
+		padding:0px 0px 0px 0px;
+	}
+	.mysearch_div
+	{
+		margin-left:10px;
+	}
+	.myclass_search a img
+	{
+		margin-left:10px;
+	}
+	ul.popular li
+    {
+    height: 125px;
+	}
+	.video_title
+	{
+		overflow:hidden;
+	}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) {
+/* Styles */
+
+	.video-thumbnail-duration
+	{
+		right: 16px;
+	}
+	.videogallery_mobView #mobDesign_videoPage .nav li 
+	{
+		width: 31%;
+		padding-left: 53px;
+		height: 41px;
+	}
+	.submenu li
+	{
+		display:none;
+	}
+	.videogallery_mobView #mobDesign_videoPage
+	{
+		width: 100%;
+    		margin-left: 0px;
+	}
+	#search_box_mobDesign #searchbar
+	{	
+		display:block;
+   		margin-left: 90px;
+	}
+	.myclass_watch_video 
+	{
+    	width: 50%;
+	}
+	img.mob_div_video 
+	{
+    		width: 90%;
+		height:105px;
+	}
+		
+	#mainbody
+	{
+		padding:0px;
+	}
+	
+	
+	#searchbox
+	{
+		margin-left:10px;
+		background:none;
+		border-style:none;
+		overflow:visible;
+		
+	}
+	ul.submenu .submit
+	{
+		float:left;
+	}
+	ul.submenu li 
+	{
+		width:95%;
+		background-size:35px 35px;
+		background-repeat:no-repeat;
+		margin-bottom: 20px;
+	}
+	
+	.submit
+	{
+		float:none;
+		width:100%;
+		margin-top:7px;
+	}
+	#searchbar
+	{
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+	
+	.video_Content
+	{
+		float:right;
+		width: 48%;
+	}
+	
+	video_title
+	{
+		width:100%;
+	}
+	.video_Content .video_data
+	{
+		width:100%;
+		line-height:25px;
+	}
+	ul li
+	{
+		padding:0px 0px 0px 0px;
+	}
+	.mysearch_div
+	{
+		margin-left:10px;
+	}
+	.myclass_search a img
+	{
+		margin-left:10px;
+	}
+	ul.popular li
+    {
+    height: 125px;
+	}
+	.video_title
+	{
+		overflow:hidden;
+	}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) 
+and (orientation : portrait) 
+{
+/* Styles */
+
+	.videogallery_mobView #mobDesign_videoPage .nav li 
+	{
+		width: 31%;
+		padding-left: 33px;
+		height: 43px;
+	}
+	.submenu li
+	{
+		display:none;
+	}
+	.videogallery_mobView #mobDesign_videoPage
+	{
+		width: 100%;
+    		margin-left: 0px;
+	}
+	.search-bar #searchbar
+	{
+		display:block;
+  		margin-left: 28px;
+	}
+	.myclass_watch_video 
+	{
+    	width: 50%;
+	}
+	img.mob_div_video 
+	{
+    	width: 90%;
+		height:105px;
+	}
+		
+	#mainbody
+	{
+		padding:0px;
+	}
+	
+	
+	#searchbox
+	{
+		margin-left:10px;
+		background:none;
+		border-style:none;
+		overflow:visible;
+		
+	}
+	ul.submenu .submit
+	{
+		float:left;
+	}
+	ul.submenu li 
+	{
+		width:95%;
+		background-size:35px 35px;
+		background-repeat:no-repeat;
+		margin-bottom: 20px;
+	}
+	
+	.submit
+	{
+		float:none;
+		width:100%;
+		margin-top:7px;
+	}
+	#searchbar
+	{
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+	
+	.video_Content
+	{
+		float:right;
+		width: 48%;
+	}
+	
+	video_title
+	{
+		width:100%;
+	}
+	.video_Content .video_data
+	{
+		width:100%;
+		line-height:25px;
+	}
+	ul li
+	{
+		padding:0px 0px 0px 0px;
+	}
+	.mysearch_div
+	{
+		margin-left:10px;
+	}
+	.myclass_search a img
+	{
+		margin-left:10px;
+	}
+	ul.popular li
+    	{
+    		height: 125px;
+	}
+	.video_title
+	{
+		overflow:hidden;
+	}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) 
+and (orientation : landscape) {
+/* Styles */
+	
+	
+	.video-thumbnail-duration
+	{
+		right: 23px;
+	}
+	.videogallery_mobView #mobDesign_videoPage ul li 
+	{
+		width: 31%;
+		padding-left: 77px;
+		height: 41px;
+
+	}
+	.submenu li
+	{
+		display:none;
+	}
+	#mobDesign_videoPage
+	{
+		display:block;
+		background: #f7f7f7 url(http://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
+		
+	    	width: 100%;
+    		margin-left: 0px;
+		margin-top: -25px;
+		margin-bottom: 29px;
+	}
+	.search-bar #searchbar
+	{
+		display:block;
+    		margin-left: 173px;
+	}
+	.myclass_watch_video 
+	{
+    	width: 50%;
+	}
+	img.mob_div_video 
+	{
+    	width: 90%;
+		height:105px;
+	}
+		
+	#mainbody
+	{
+		padding:0px;
+	}
+	
+	
+	#searchbox
+	{
+		margin-left:10px;
+		background:none;
+		border-style:none;
+		overflow:visible;
+		
+	}
+	ul.submenu .submit
+	{
+		float:left;
+	}
+	ul.submenu li 
+	{
+		width:95%;
+		background-size:35px 35px;
+		background-repeat:no-repeat;
+		margin-bottom: 20px;
+	}
+	
+	.submit
+	{
+		float:none;
+		width:100%;
+		margin-top:7px;
+	}
+	#searchbar
+	{
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+	
+	.video_Content
+	{
+		float:right;
+		width: 48%;
+	}
+	
+	video_title
+	{
+		width:100%;
+	}
+	.video_Content .video_data
+	{
+		width:100%;
+		line-height:25px;
+	}
+	ul li
+	{
+		padding:0px 0px 0px 0px;
+	}
+	.mysearch_div
+	{
+		margin-left:10px;
+	}
+	.myclass_search a img
+	{
+		margin-left:10px;
+	}
+	ul.popular li
+    {
+    height: 125px;
+	}
+	.video_title
+	{
+		overflow:hidden;
+	}
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	
+	.video-thumbnail-duration
+	{
+		right: 1px;
+		bottom: 27px;
+	}
+	.search-bar #searchbar
+	{
+  		display:none;
+	}
+	.popular_video h1
+	{
+		margin-left:10px;
+	}
+	.popular_video .morevideos
+	{
+		margin-left:10px;
+	}
+	.video
+	{
+		background-image:none;
+	}
+	#ad_creative
+	{
+		display:none;
+	}
+	.sidebar, .video
+	{
+		width:95%;
+		float:none;
+		margin-left: 8px;
+	}
+	.circle-list li:hover 
+	{
+		transition:none;    
+		transform:none;
+	}
+	
+	.video li
+	{
+		width:100%;
+		padding: 10px;
+		
+	}
+	.morevideos
+	{
+		width:100%;
+		float:none;
+	}
+	#mainbody
+	{
+		padding:0px;
+	}
+	
+	#searchDiv {
+	margin:0;
+	}
+	
+	.circle-list li:hover 
+	{
+		transition:none;    
+		transform:none;
+	}
+	
+	ul.submenu li
+	{
+		margin-left:10px;
+	}
+	ul.popular li
+	{
+		clear:both;
+		height: 170px;
+	}
+	li.popular_list .watch
+	{
+		float: left;
+		
+	}
+	.video_Content
+	{
+		float: none;
+		width: 45%;
+		padding-left: 30px;
+	}
+	
+	video_title
+	{
+		width:100%;
+	}
+	.video_Content .video_data
+	{
+		width:100%;
+		line-height:20px;
+	}
+	ul li
+	{
+		padding:0px 0px 0px 0px;
+	}
+	.mysearch_div
+	{
+		margin-left:10px;
+	}
+	.myclass_search a img
+	{
+		margin-left:10px;
+	}
+	
+	#mainbody .column_left
+	{
+		float:left;
+	}
+	.myclass_watch_video
+	{
+		width:auto;
+	}
+
+}
+
+

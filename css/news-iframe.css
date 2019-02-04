@@ -1,0 +1,12 @@
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.show-cmt {
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+}
+.bx-wrapper .bx-next {
+    right: 0 !important;
+}

@@ -1,0 +1,44 @@
+[13-Sep-2015 14:52:03 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:03 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:38 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:38 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:38 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:50 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:50 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:52:50 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:55:10 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:55:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:55:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:55:13 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:55:13 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 14:55:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_ads_edit.php on line 14
+[13-Sep-2015 15:02:46 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 15:02:46 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 15:02:46 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 15:03:03 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 15:03:03 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 15:03:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:08 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:08 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:08 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:11 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:11 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:11 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:14 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:17:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:18:36 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:18:36 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:18:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:52:04 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:52:04 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:52:04 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:53:04 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:53:04 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:53:04 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:53:22 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:53:22 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:53:22 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:57:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
+[13-Sep-2015 17:57:48 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/qbdevqb/public_html/qb-admin/admin/action/video_edit.php on line 27
