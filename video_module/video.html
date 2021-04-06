@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>Html5 video example</title>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+var nua = navigator.userAgent;
+var is_android = ((nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 &&     nua.indexOf('AppleWebKit') > -1) && !(nua.indexOf('Chrome') > -1));
+//check browser is safari or not
+if(!is_android){
+if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) 
+{ 
+var haveqt = false;
+if (navigator.plugins) {
+    for (i=0; i < navigator.plugins.length; i++ ) {
+        if (navigator.plugins[i].name.indexOf
+        ("QuickTime") >= 0)
+        { haveqt = true; }
+    }
+}
+
+if ((navigator.appVersion.indexOf("Mac") > 0)
+    && (navigator.appName.substring(0,9) == "Microsoft")
+    && (parseInt(navigator.appVersion) < 5) )
+{ haveqt = true; }   
+if(!haveqt){	
+	$('#error-quick').show();
+}        
+}
+}
+
+
+});
+</script>
+<style type="text/css">
+#error-quick{
+	color:#F00;	
+	border-bottom:5px solid #CCC;
+	display:none;
+}
+.quicktime-download-title, .quicktime-download-text{
+	display:block;
+}
+.quicktime-download-title{
+	font-size:22px;
+	font-weight:bold;
+}
+.quicktime-download-text{
+	font-size:16px;	
+}
+</style>
+</head>
+
+<body>
+<div id="error-quick">
+<a href="http://www.apple.com/quicktime/download/">
+<span class="quicktime-download-title">Get Quicktime</span>
+<span class="quicktime-download-text">Download QuickTime to view this video.</span>
+</a>
+</div>
+<video controls width="320" height="240" preload="none" poster="<?php  echo $base_url;?>uploadedvideo/videothumb/p200x1501408517998Wildlife02.png">
+<source src="<?php  echo $base_url;?>uploadedvideo/new1408517998Wildlife.mp4" type="video/mp4">
+<source src="<?php  echo $base_url;?>uploadedvideo/new1408517998Wildlife.ogg" type="video/ogg">
+<source src="<?php  echo $base_url;?>uploadedvideo/new1408517998Wildlife.webm" type="video/webm">
+Your browser does not support the video tag.
+</video>
+</body>
+</html>
